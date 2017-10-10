@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Aplicacion_Docente</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="tipo">
+        <item>profesor</item>
+        <item>alumno</item>
+        <item>padre</item>
+    </string-array>
+    <string-array name="centro">
+        <item>Colegio San Roque</item>
+        <item>Colegio San Juan Evangelista</item>
+        <item>Colegio Juan Comenius</item>
+        <item>Colegio EL CLOT</item>
+    </string-array>
+    <string name="valor1">Comentarios : \n \n</string>
+    <string name="valor2">opc : \n \n</string>
+    <string name="title_activity_ubicacion">Map</string>
+</resources>

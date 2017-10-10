@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FF33B5E5">
+
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/correo"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="41dp"
+        android:text="Llamar por Teléfono:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar Email :"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_marginTop="24dp"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/technology"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"/>
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E64FE"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="101dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/colegio"
+            android:layout_width="150dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.18"
+            android:background="#A9F5BC"
+            android:src="@drawable/ic_home_black_24dp" />
+
+        <ImageButton
+            android:id="@+id/noticias"
+            android:layout_width="150dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="200dp"
+            android:layout_weight="0.18"
+            android:background="#A9F5BC"
+            android:src="@drawable/ic_chrome_reader_mode_black_24dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/contacto"
+            android:layout_width="150dp"
+            android:layout_height="93dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.18"
+            android:background="#A9F5BC"
+            android:src="@drawable/ic_perm_phone_msg_black_24dp" />
+
+
+        <ImageButton
+            android:layout_width="150dp"
+            android:layout_height="93dp"
+            android:id="@+id/comedor"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_local_dining_black_24dp"
+            android:layout_weight="0.18"
+            android:background="#A9F5BC"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="center"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="330dp"
+            android:layout_height="74dp"
+            android:id="@+id/ubicacion"
+            android:src="@drawable/ic_location_on_black_24dp"
+            android:layout_marginLeft="20dp"
+            android:background="#A9F5BC"
+
+            android:layout_weight="0.11" />
+
+
+    </LinearLayout>
+</LinearLayout>
